@@ -3,6 +3,9 @@ Mobile application for storing company department stock information
 
 Currently the project is not officially supported, write about all problems and questions to email *danilagalkevich@gmail.com*
 
+  * [Customer contact](https://vk.com/earl_shit) - vk
+  * [My contact](https://t.me/thelowdanilingus) - telegram
+
 ## Description of work
   The Google Drive account stores up-to-date information on the availability of a particular product in the department’s warehouse.
 
