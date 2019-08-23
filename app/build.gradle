@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\Projects\\Android Studio\\LMMAX\\lmmax.jks')
+            storePassword 'Passwd81'
+            keyPassword 'Passwd81'
+            keyAlias = 'lmmax'
+        }
+    }
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.leroymerlin.lmmax"
@@ -16,6 +24,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
         }
     }
     packagingOptions {
