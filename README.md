@@ -1,15 +1,12 @@
 # Leroy Merlin MAX
-
 Mobile application for storing company department stock information
 
 Currently the project is not officially supported, write about all problems and questions to email *danilagalkevich@gmail.com*
 
 ## Description of work
-
   The Google Drive account stores up-to-date information on the availability of a particular product in the department’s warehouse.
 
 ## Implemented by
-
   * Login to google account to work with google drive
   * Download Excel Product Database
   * Editing items
@@ -17,15 +14,25 @@ Currently the project is not officially supported, write about all problems and 
   * Scan barcode for quick access to the product in the database
 
 ## Supported Platforms
-
 Currently supported platforms:
   * *Android (min 23sdk)*
+
+## How to use
+  * Login to google account
+  * Input your shop number
+  * Choose department
+  * If you need to download the product database, then you can use the [example](https://github.com/danilinus/LMMAX/blob/master/Files/baza_tovara.xltx)
+  * For the test you can use pictures of examples of barcodes corresponding to excel base [folder](https://github.com/danilinus/LMMAX/blob/master/Files)
+  
+## Preview
+  * [**Videos**](https://vk.com/videos247745732?section=album_1)
+  * [**Photos**](https://drive.google.com/drive/folders/1DMEo2WG28Lu2udlKBqTwPIkbfNfUQOhN?usp=sharing)
 
 ## Source Code
 The full source code is available here from GitHub:
 
 * Clone the source: ``` git clone https://github.com/danilinus/LMMAX.git ```
-* It is recommended to use **Android Studio** for the client.
+* It is recommended to use **Android Studio**.
 
 ## Authors
 
