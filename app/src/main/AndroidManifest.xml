@@ -29,7 +29,6 @@
         <activity android:name=".Input" />
         <activity android:name=".Function" />
         <activity android:name=".AddressStorage" />
-        <activity android:name=".CheckWifi"/>
         <activity android:name=".Success" />
         <activity android:name=".Resize" />
         <activity android:name=".Settings" />
