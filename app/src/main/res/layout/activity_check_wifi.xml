@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckWifi"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:src="@drawable/unavailable_cloud"
+        android:layout_marginTop="50px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вы не подключены к рабочей сети"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#74727d"/>
+
+    <Button
+        android:id="@+id/repeat"
+        style="@style/button_sup_style"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:text="Перепроверить"/>
+</LinearLayout>

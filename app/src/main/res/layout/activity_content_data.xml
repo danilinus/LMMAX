@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContentData"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tovar_name_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Имя товара"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/barcode_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Штрихкод: "
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lmcode_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="ЛМкод: "
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sum_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Количество: "
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/address_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Адрес: "
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/edit_btn"
+                style="@style/button_sup_style"
+                android:text="ИЗЪЯТЬ"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/remove_btn"
+                style="@style/button_sup_style"
+                android:text="УДАЛИТЬ"
+                android:layout_centerInParent="true"/>
+
+            <Button
+                android:id="@+id/cancel_btn"
+                style="@style/button_cancel_style"
+                android:text="ОТМЕНА"
+                android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+</LinearLayout>

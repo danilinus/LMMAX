@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <corners android:radius="1dp" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/main_noactive_color" />
+            <solid android:color="@color/text_color"/>
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp"/>
+        </shape>
+    </item>
+
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+            <shape android:shape="oval">
+                <corners android:radius="1dp" />
+                <stroke
+                    android:width="1dp"
+                    android:color="@color/main_color" />
+                <size
+                    android:width="20dp"
+                    android:height="20dp" />
+                <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp"/>
+            </shape>
+            </item>
+            <item>
+            <shape android:shape="oval">
+                <corners android:radius="1dp" />
+                <solid android:color="@color/main_color"/>
+                <size
+                    android:width="14dp"
+                    android:height="14dp" />
+                <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp"/>
+            </shape></item>
+        </layer-list>
+
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <corners android:radius="1dp" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/main_color" />
+            <solid android:color="@color/text_color"/>
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#0acf6a</color>
+    <color name="main_press_color">#00bb56</color>
+    <color name="main_noactive_color">#686868</color>
+    <color name="text_color">#ffffff</color>
+
+    <color name="Primary">#39b44b</color>
+    <color name="PrimaryDark">#3a8067</color>
+    <color name="TransperentPrimary">#3239b44b</color>
+</resources>

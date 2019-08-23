@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/main_color</item>
+        <item name="android:colorPrimaryDark">@color/main_press_color</item>
+        <item name="android:colorAccent">@color/main_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:buttonStyle">@style/button_cancel_style</item>
+        <item name="android:checkboxStyle">@style/checkbox_sup_style</item>
+        <item name="android:radioButtonStyle">@style/radiobutton_sup_style</item>
+        <item name="android:statusBarColor">@color/text_color</item>
+        <item name="android:colorBackground">@color/text_color</item>
+        <item name="android:textColorPrimaryInverse">@color/text_color</item>
+
+        <item name="android:alertDialogStyle">@style/LightDialogTheme</item>
+    </style>
+
+    <style name="LightDialogTheme" parent="android:Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/button_sup_style_ald</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/button_cancel_style_ald</item>
+    </style>
+
+    <style name="BarTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/Primary</item>
+        <item name="android:colorPrimaryDark">@color/TransperentPrimary</item>
+        <item name="android:colorAccent">@color/Primary</item>
+        <item name="android:colorButtonNormal">@color/Primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ScanTheme" parent="android:Theme.DeviceDefault.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/Primary</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDark</item>
+        <item name="android:colorAccent">@color/Primary</item>
+        <item name="android:colorButtonNormal">@color/Primary</item>
+    </style>
+
+    <style name="button_sup_style_ald">
+        <item name="android:background">@drawable/button_sup</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+    </style>
+
+    <style name="button_cancel_style_ald">
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+    </style>
+
+    <style name="button_sup_style" parent="android:Widget.DeviceDefault.Button">
+        <item name="android:background">@drawable/button_sup</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="button_cancel_style" parent="android:Widget.DeviceDefault.Button">
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="checkbox_sup_style" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_sup</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="radiobutton_sup_style" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton_sup</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+</resources>

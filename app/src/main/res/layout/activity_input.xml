@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Input"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_leroy_merlin" />
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/back_btn" />
+
+        <ImageView
+            android:id="@+id/settings_btn"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/settings_icon_btn" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sel_otd_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВЫБЕРИТЕ ОТДЕЛ:"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:background="@color/Primary"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <GridLayout
+            android:id="@+id/grid_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="5">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/button_sup_style"
+                android:text="1"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/button_sup_style"
+                android:text="2"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/button_sup_style"
+                android:text="3"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/button_sup_style"
+                android:text="4"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/button_sup_style"
+                android:text="5"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/button_sup_style"
+                android:text="6"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/button_sup_style"
+                android:text="7"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/button_sup_style"
+                android:text="8"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/button_sup_style"
+                android:text="9"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/button_sup_style"
+                android:text="10"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/button_sup_style"
+                android:text="11"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/button_sup_style"
+                android:text="12"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/button_sup_style"
+                android:text="13"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/button_sup_style"
+                android:text="14"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/button_sup_style"
+                android:text="15"
+                android:textStyle="bold"/>
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>
