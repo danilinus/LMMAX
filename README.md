@@ -41,4 +41,4 @@ The full source code is available here from GitHub:
 
 * **Danila Galkevich** - *Initial work* - [Danila](https://github.com/danilinus)
 
-See also the list of [contributors](https://github.com/danilinus/Chat/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/danilinus/LMMAX/contributors) who participated in this project.
